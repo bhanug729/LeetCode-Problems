@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Arrays;
 
-public class $12_TwoSumInSortedArray_LeetCode_167 {
+public class $13_ProductExceptSelf_LeetCode_238 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(twoSum(new int[] { 2, 7, 11, 15 }, 9)));
