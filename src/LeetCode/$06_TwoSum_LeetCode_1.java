@@ -1,8 +1,6 @@
 package LeetCode;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class $06_TwoSum_LeetCode_1 {
 
@@ -27,9 +25,7 @@ public class $06_TwoSum_LeetCode_1 {
 			} else {
 				end--;
 			}
-
 		}
-
-		return new int[] { start+1, end+1 };
+		return new int[] { start + 1, end + 1 };
 	}
 }

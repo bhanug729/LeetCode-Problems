@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Arrays;
 
-public class $12_SortedSquares_LeetCode_977 {
+public class $12_SquareOfSortedArray_LeetCode_977 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(sortedSquares(new int[] { -4, -1, 0, 3, 10 })));

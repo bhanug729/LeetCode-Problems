@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Arrays;
 
-public class $14_TwoSumInSortedArray_LeetCode_167 {
+public class $14_ProductExceptSelf_LeetCode_238 {
 
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(productExceptSelf(new int[] { 1, 2, 3, 4 })));
@@ -18,7 +18,6 @@ public class $14_TwoSumInSortedArray_LeetCode_167 {
 			prod *= nums[i];
 			right[i] = prod;
 		}
-		
 		int[] result = new int[n];
 		int left=1;
 		
