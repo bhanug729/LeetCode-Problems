@@ -29,7 +29,6 @@ public class $20_LuckyIntegerInArray_LeetCode_1394 {
 				result = Math.max(result, key);
 			}
 		}
-
 		return result;
 	}
 }
