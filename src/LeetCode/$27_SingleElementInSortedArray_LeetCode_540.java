@@ -28,7 +28,7 @@ public class $27_SingleElementInSortedArray_LeetCode_540 {
 					} else {
 						end = mid - 1;
 					}
-				} else {	// if mid index is even
+				} else { // if mid index is even
 					if (nums[mid] == nums[mid + 1]) {
 						start = mid + 1;
 					} else {
